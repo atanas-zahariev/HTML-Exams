@@ -1,0 +1,166 @@
+@import url(reset.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+
+html{
+    font-family: PT Sans;
+}
+
+header{
+   padding: 14px 64px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #d01919;
+   color: #fff;
+   font-size: 18px;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+header p>span{
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+header p{
+    font-weight:200;
+}
+
+/* border */
+.border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image/fitness-main.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.border-position{
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+}
+
+.border-position .border-header{
+    margin-left: auto;
+    width: 50%;
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.border-position .border-header a{
+    font-size: 18px;
+    font-weight: 100;
+    color: #c2ccd1;
+}
+
+.border-moto{
+    padding-top: 116px;
+    padding-bottom: 152px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+}
+.border-moto h1{
+    color: #fff;
+    font-size: 64px;
+    letter-spacing: 10px;
+    font-weight: 500;
+}
+
+.border-moto p{
+    width: 72%;
+    text-align: center;
+    color: #c2ccd1;
+    font-size: 20px;
+}
+
+.border-moto button{
+    background-color: #d01919;
+    padding: 8px 22px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* annotation */
+
+.annotation{
+    margin: auto;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    padding-bottom: 72px;
+}
+
+.annotation .divaider{
+    width: 50px;
+    height: 4px;
+    background-color: #d01919;
+}
+
+.annotation .annotation-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.annotation-cards .card{
+    flex: 0 1 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.annotation-cards .card img{
+    width: 15%;
+    max-height: 80px;
+}
+.annotation h2{
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.annotation-cards .card p:first-of-type{
+    font-size: 20px;
+    font-weight: 700;
+    color: #d01919;
+}
+
+.annotation-cards .card p:last-of-type{
+    text-align: center;
+    width: 70%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.background{
+    background-color:#efefef;
+
+}
+
+.background .annotation-cards .card img{
+    width: 80%;
+    border-radius: 8px;
+    max-height: 250px;
+}
+
+.background .annotation-cards .card p:last-of-type{
+    color: #c1bdc3;
+}

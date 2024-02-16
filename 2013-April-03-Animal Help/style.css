@@ -1,0 +1,119 @@
+@import url(reset.css);
+
+/* ----Global */
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* ----Header */
+
+header {
+    padding: 14px 64px;
+    padding-left: 148px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 8px 8px 12px rgb(218, 216, 216);
+}
+
+header ul {
+    display: flex;
+    flex: 0 1 35%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+header a {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+}
+
+/* ------Home */
+
+.home {
+    background-color: #85dcff;
+    height: 674px;
+    box-shadow: inset 0 20px 16px -16px rgb(204, 202, 202);
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.home .home-position {
+    flex: 0 1 89%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.home-position-img {
+    flex: 0 1 674px;
+}
+
+.home-position-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-position-content{
+    margin-left: 96px;
+    flex: 0 1 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home-size-content{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home-size-content h2{
+    font-size: 36px;
+}
+
+.home-size-content p{
+    font-size: 20px;
+}
+
+.home-size-content div{
+    height: 27%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-size-content div button:first-of-type{
+    width: 40%;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.home-size-content div button:last-of-type{
+    width: 55%;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}

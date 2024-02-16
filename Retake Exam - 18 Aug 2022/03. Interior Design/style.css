@@ -1,0 +1,235 @@
+@import url(reset.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+    font-family: Roboto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Abril Fatface;
+}
+
+h1{
+    font-weight: 300;
+}
+
+.site-position{
+    margin: auto;
+    width: 85%;
+}
+ section.desing{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 486px;
+    background-image: url(image/image.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+
+.mark{
+    width: 23%;
+    padding: 2rem 1.5rem ;
+    border: 2px solid #c1c1c1;    
+    border-radius: 6px;
+    margin-top: 2.5rem;
+    margin-left: 3.5rem;
+    box-shadow: 2px 2px 4px rgb(105, 104, 104);
+}
+
+.mark-position{
+    width: 80%;
+}
+.mark-position h2{
+    font-size: 3.5rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+}
+
+.divaider{
+    width: 65%;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 12px;
+}
+
+.mark-position .p{
+    font-size: 1.5rem;
+}
+.point{
+    margin-left: auto;
+    margin-right: 2.5rem;
+    padding-top: 3rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+    border: 2px solid #c1c1c1;    
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px 2px rgb(105, 104, 104);
+    width: 31%;
+    display: flex;
+    justify-content: stretch;
+    background-image: linear-gradient(to right, #9d948c, #a69e96, #aea8a1, #b7b2ac, #c0bcb7, #c4c0bc, #c8c4c1, #cbc8c6, #cbc8c6, #cac7c6, #cac7c6, #c9c7c6);
+}
+.point-position{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+}
+
+.point-position p:first-of-type{
+    padding-left: 80px;
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(28, 28, 28);
+}
+.point-position p:last-of-type{
+    width: 100%;
+    margin-block-start: 0;
+    font-size: 25px;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(28, 28, 28);
+}
+
+.point-position span{
+    font-size: 36px;
+    color: #8d8581;
+}
+
+/* -----------description */
+
+.description{
+    display: flex;
+}
+
+.content{
+    width: 70%;
+    background-color: #f2f0f3;
+}
+.border{
+    width: 30%;
+    background-color: #bab1ad;
+}
+
+.contact-divaider{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+
+.service{
+    padding-top:48px;
+    padding-right: 48px;
+    padding-left: 100px;
+}
+
+.service h2{
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.service p{
+    padding-bottom:48px ;
+    font-size: 26px;
+}
+.service p span:first-of-type{
+    margin-right: 12px;
+}
+.service p span:last-of-type{
+    font-weight: bold;
+    margin-right: 6px;
+    text-transform: uppercase;
+}
+
+.service p:first-of-type{
+    padding-top: 48px;
+}
+.service p:last-of-type{
+    padding-bottom: 64px;
+}
+
+.contact{
+    padding-right: 84px;
+    padding-left: 100px;
+}
+
+.contact-button{
+    padding: 36px 0;
+}
+
+.contact-info{
+    padding-top: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.contact-info p{
+    font-size: 30px;
+}
+
+.contact-info p>span{
+    margin-right: 6px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.contact-button input{
+    width: 53%;
+    height: 80px;
+    border-radius: 8px;
+    background-color: #afa7a3;
+    border: none;
+    font-size: 22px;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+  .contact-button button{
+    width: 20%;
+    height: 80px;
+    background-color: #67784d;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    color: white;
+  }
+
+  .border{
+    padding: 64px  24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+
+    .border .table{
+        line-height: 0.9;
+    }
+  .border .table p:first-of-type{
+    font-size: 6rem;
+    font-weight: 100;
+    color: white;
+  }
+
+  .border .table span{
+   font-size: 24px;
+   text-transform: uppercase;
+   letter-spacing: -1px;
+  }

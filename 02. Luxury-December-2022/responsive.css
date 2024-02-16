@@ -1,0 +1,241 @@
+@media (max-width:600px) {
+
+
+    .div-header,
+    header article a,
+    .gallery div,
+    .blog-title h4 span,
+    .blog article img,
+    .blog-title a,
+    .magazine-title a {
+        display: none;
+    }
+
+    .logo-center {
+        padding-top: 10px;
+    }
+
+    header h3 {
+        font-size: 8px;
+        font-weight: 200;
+        padding: 0;
+    }
+
+    header h1 {
+        font-size: 16px;
+        font-weight: 600;
+        padding: 0;
+        letter-spacing: 1px;
+    }
+
+    .button-header {
+        width: 72px;
+        height: 24px;
+        padding: 0;
+        font-size: 8px;
+        margin-top: 54px;
+        margin-bottom: 48px;
+        border-color: rgb(182, 181, 181);
+    }
+
+    header .options {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .options article h4 {
+        padding: 0;
+        margin-top: 8px;
+        font-size: 12px;
+    }
+
+    header .options article {
+        width: 100%;
+        height: 56px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-color: #b1aaa7;
+
+        padding: 0;
+    }
+
+    .gallery {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main h2 {
+        font-size: 17px;
+        font-weight: bold;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+
+    .gallery {
+        padding-bottom: 48px;
+    }
+
+    .gallery article p {
+        font-size: 12px;
+        padding-bottom: 8px;
+    }
+
+    .gallery article>img {
+        width: 220px;
+        height: 115px;
+        padding-bottom: 8px;
+    }
+
+
+    .blog {
+        padding: 0;
+    }
+
+    .blog-title {
+        padding-top: 20px;
+        padding-left: 48px;
+    }
+
+    .blog-title h4 {
+        font-size: 18px;
+    }
+
+    #about-blog {
+        width: 90%;
+        height: auto;
+        margin: 24px 24px 20px 24px;
+    }
+
+    #about-blog h3 {
+        padding: 0;
+        letter-spacing: 1px;
+        width: 82%;
+        margin: 0;
+        margin-top: 24px;
+        margin-left: 8px;
+        margin-bottom: 14px;
+        font-size: 12px;
+    }
+
+    #about-blog p {
+        font-size: 8px;
+        padding: 0;
+        margin: 0 8px;
+
+    }
+
+    #about-blog button {
+        border: none;
+        background: #3174D3;
+        color: white;
+        padding: 6px 10px;
+        font-size: 8px;
+        margin: 20px 0 12px 12px;
+    }
+
+    .magazine article {
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .magazine {
+        padding-top: 12px;
+    }
+
+    .magazine .magazine-title {
+        border-bottom: 2px solid gray;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        padding: 40px 0 0 40px;
+    }
+
+    .magazine-title h4 {
+        font-size: 13px;
+
+    }
+
+    .magazine .magazine-title h4 span {
+        font-size: 13px;
+    }
+
+
+    #magazine-img {
+        padding-left: 24px;
+        border: 1px solid gray;
+        margin-top: 20px;
+    }
+
+    .magazine-info {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: center;
+    }
+
+    .magazine-info img {
+        max-height: 160px;
+        width: 85%;
+        /* height: auto; */
+    }
+
+    .magazine-info h2 {
+        margin-top: 36px;
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    .magazine-info h3 {
+        font-size: 14px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        margin-top: 4px;
+        margin-bottom: 24px;
+    }
+
+    .magazine-info p {
+        font-size: 15px;
+        text-align: center;
+        padding: 0 48px;
+    }
+
+    .magazine-info button {
+        font-size: 8px;
+        padding: 5px 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding-top: 8px;
+        /* margin-top: 0; */
+    }
+
+    footer p {
+        font-size: 10px;
+        margin-bottom: 8px;
+    }
+
+    footer .icons {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        font-size: 0;
+    }
+
+    footer .icons a>* {
+        padding: 0;
+        font-size: 12px;
+        position: relative;
+        top: -4px;
+        bottom: -4px;
+
+    }
+
+
+}

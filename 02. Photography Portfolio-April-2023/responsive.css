@@ -1,0 +1,84 @@
+@media (max-width:600px) {
+
+    .navigation-nav,.home-text {
+        display: none;
+    }
+
+    .navigation-max-width{
+        padding: 0 24px;
+        /* margin-bottom: 64px; */
+    }
+
+    .home-text-container{
+        margin-top: 48px;
+    }
+
+    .home-text01.Heading2 {
+        margin-top: 0;
+    }
+
+    .button.button-lg.button-secondary {
+        margin-bottom: 24px;
+    }
+
+    .home-tab-selector-cards-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .home-image-container {
+        display: none;
+    }
+
+    .home-about.section-container {
+        padding: 36px 0;
+    }
+
+    .home-text05.Heading2 {
+        margin-top: 30px;
+    }
+
+    .home-text06 {
+        font-size: 15px;
+    }
+
+    .home-process.section-container {
+        padding: 36px 0;
+    }
+
+    .home-step {
+        margin-bottom: 0;
+        padding-bottom: 48px;
+    }
+
+    .home-text10 {
+        margin-right: 24px;
+    }
+
+    .home-container1 {
+        padding-right: 20px;
+    }
+
+    .home-top-part {
+        flex-direction: column;
+    }
+
+    .home-links-container {
+        flex-direction: column;
+        gap: 36px;
+        margin-bottom: 36px;
+    }
+
+    .section-container {
+        padding: 36px 0;
+    }
+
+    .home-subscribe-container {
+        width: 100%;
+    }
+
+    .button-primary.button {
+        width: 120px;
+        height: 56px;
+    }
+}
